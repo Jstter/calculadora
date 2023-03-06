@@ -1,0 +1,20 @@
+rograma {
+  funcao inicio() {
+
+    inteiro n1, n2, resultado 
+
+    escreva("informe o primeiro valor: \n")
+    leia(n1)
+
+    limpa()
+    escreva("informe o segundo valor: \n")
+    leia(n2)
+
+    limpa()
+    resultado = n1 + n2
+    escreva("A soma dos valores ", n1, " + ", n2, " = ", resultado)
+    resultado = n1 - n2
+    escreva("\nO resultado dos valores ", n1, " - ", n2, " = ", resultado)
+  }
+}
+
